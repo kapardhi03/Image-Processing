@@ -45,4 +45,5 @@ blank = np.zeros((500,500,3), dtype='uint8')  # giving height, width, no.of colo
 cv.putText(blank, "Ghost!", (blank.shape[0]//2, blank.shape[1]//2), cv.FONT_HERSHEY_COMPLEX, 1.0, (0,0,255), 2)
 cv.imshow("Text", blank)
 
+
 cv.waitKey(5000)

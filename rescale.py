@@ -14,7 +14,7 @@ def rescaleFrame(frame, scale=0.75):
 
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
 
-#spesific for videos
+#spesific for Live videos
 def changeResolution(width, height):
     """
     This works only for Live videos

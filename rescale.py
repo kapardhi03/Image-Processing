@@ -5,11 +5,22 @@ import cv2 as cv
 
 #default function to rescale
 def rescaleFrame(frame, scale=0.75):
+    """
+    works for Images, Videos and live Frame
+    """
     width = int(frame.shape[1] * scale) #width
     heigth = int(frame.shape[0] * scale) #heigth
     dimensions = (width, heigth)
 
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
+
+#spesific for videos
+def changeResolution(width, height):
+    """
+    This works only for Live videos
+    """
+    capture.set(3,width)
+    capture.set(4,height)
 
 
 def resize_img(pth):

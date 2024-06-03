@@ -61,6 +61,7 @@ cv.imshow("Resized", resized)
 """
 0 -> vertical flip 
 1 -> horizontal flip
+-1 -> Both Horizontal and vertical flip
 """
 flip = cv.flip(img, 0) 
 cv.imshow("vertical flip", flip)

@@ -28,9 +28,7 @@ pip3 install opencv-contrib-python
 
 
 
-Here is the properly formatted README file in Markdown:
 
-```markdown
 # OpenCV Image Processing Journey
 
 Welcome to my OpenCV Image Processing repository! This repository documents my learning progress in OpenCV, an open-source computer vision and machine learning software library. I will continuously update this README with the new concepts and techniques I learn.

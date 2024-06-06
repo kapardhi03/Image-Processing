@@ -25,9 +25,7 @@ To get started with the code in this repository, you need to have Python and Ope
 ```sh
 pip3 install opencv-contrib-python
 
-
-
-
+```
 
 # OpenCV Image Processing Journey
 

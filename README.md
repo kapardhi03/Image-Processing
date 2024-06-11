@@ -1,6 +1,4 @@
-Here's the updated README file incorporating the new topics on "Masking" and adjusting the order to include "Canny Edge Detection" before "Edge Detection".
 
-```markdown
 # OpenCV Image Processing Journey
 
 Welcome to my OpenCV Image Processing repository! This repository documents my learning progress in OpenCV, an open-source computer vision and machine learning software library. I will continuously update this README with the new concepts and techniques I learn.

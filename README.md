@@ -1,32 +1,6 @@
-# OpenCV Image Processing Jourey
+Here's the updated README file incorporating the new topics on "Masking" and adjusting the order to include "Canny Edge Detection" before "Edge Detection".
 
-Welcome to my OpenCV Image Processing repository! This repository documents my learning progress in OpenCV, an open-source computer vision and machine learning software library. I will continuously update this README with the new concepts and techniques I learn.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Topics Covered](#topics-covered)
-  - [Reading Images and Videos](#reading-images-and-videos)
-  - [Rescaling Frames](#rescaling-frames)
-  - [Drawing Shapes](#drawing-shapes)
-  - [Putting Text](#putting-text)
-
-
-
-## Introduction
-
-This repository is a log of my progress as I learn and experiment with OpenCV for image processing. The goal is to cover a wide range of topics and applications in computer vision.
-
-## Getting Started
-
-To get started with the code in this repository, you need to have Python and OpenCV installed. You can install OpenCV using pip:
-
-```sh
-pip3 install opencv-contrib-python
-
-```
-
+```markdown
 # OpenCV Image Processing Journey
 
 Welcome to my OpenCV Image Processing repository! This repository documents my learning progress in OpenCV, an open-source computer vision and machine learning software library. I will continuously update this README with the new concepts and techniques I learn.
@@ -44,6 +18,10 @@ Welcome to my OpenCV Image Processing repository! This repository documents my l
   - [Color Spaces](#color-spaces)
   - [Blurring Techniques](#blurring-techniques)
   - [Bitwise Operations](#bitwise-operations)
+  - [Masking](#masking)
+  - [Canny Edge Detection](#canny-edge-detection)
+  - [Edge Detection](#edge-detection)
+  - [Histograms](#histograms)
 
 ## Introduction
 
@@ -98,4 +76,27 @@ pip3 install opencv-contrib-python
 
 - **Bitwise AND/OR/XOR/NOT**: Perform fundamental bitwise operations on images, often used for masking and combining image regions.
 
+### Masking
+
+- **Creating Masks**: Learn how to create and apply masks to images for focusing on specific regions.
+- **Circular and Rectangular Masks**: Use geometric shapes to mask parts of an image.
+- **Masked Images**: Apply masks to images using bitwise operations to highlight or hide parts of the image.
+
+### Canny Edge Detection
+
+- **Canny**: Apply the Canny edge detection method to identify edges in images.
+
+### Edge Detection
+
+- **Laplacian**: Apply the Laplacian method for edge detection.
+- **Sobel**: Use the Sobel operator to detect edges in both x and y directions.
+- **Combined Sobel**: Combine the results of Sobel X and Sobel Y for comprehensive edge detection.
+
+### Histograms
+
+- **Grayscale Histogram**: Construct and plot histograms for grayscale images.
+- **Color Histogram**: Construct and plot histograms for color images (RGB).
+- **Masked Histogram**: Create and plot histograms for specific regions of an image using masks.
+
 For detailed code examples and implementations, please refer to the respective Python files in this repository.
+```

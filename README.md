@@ -99,4 +99,3 @@ pip3 install opencv-contrib-python
 - **Masked Histogram**: Create and plot histograms for specific regions of an image using masks.
 
 For detailed code examples and implementations, please refer to the respective Python files in this repository.
-```
